@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g CMakeFiles/main.dir/src/engine.cpp.o CMakeFiles/main.dir/main/main.cpp.o -o main 
+/usr/bin/clang++ -g CMakeFiles/main.dir/src/engine.cpp.o CMakeFiles/main.dir/main/main.cpp.o CMakeFiles/main.dir/src/utils.cpp.o CMakeFiles/main.dir/src/game.cpp.o -o main  /usr/lib/x86_64-linux-gnu/libSDL2.so /usr/lib/x86_64-linux-gnu/libSDL2_gfx.so 

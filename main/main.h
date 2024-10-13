@@ -1,7 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
+#pragma once
 
-#include <iostream>
-#include "../src/engine.h"
-
-#endif
+#include "../src/game.h"

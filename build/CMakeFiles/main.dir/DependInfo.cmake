@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hamdan/Documents/3DRotatingDonut/main/main.cpp" "CMakeFiles/main.dir/main/main.cpp.o" "gcc" "CMakeFiles/main.dir/main/main.cpp.o.d"
   "/home/hamdan/Documents/3DRotatingDonut/src/engine.cpp" "CMakeFiles/main.dir/src/engine.cpp.o" "gcc" "CMakeFiles/main.dir/src/engine.cpp.o.d"
+  "/home/hamdan/Documents/3DRotatingDonut/src/game.cpp" "CMakeFiles/main.dir/src/game.cpp.o" "gcc" "CMakeFiles/main.dir/src/game.cpp.o.d"
+  "/home/hamdan/Documents/3DRotatingDonut/src/utils.cpp" "CMakeFiles/main.dir/src/utils.cpp.o" "gcc" "CMakeFiles/main.dir/src/utils.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

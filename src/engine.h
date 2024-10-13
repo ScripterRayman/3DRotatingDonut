@@ -1,19 +1,41 @@
-#ifndef ENGINE_H
-#define ENGINE_H
+#pragma once
+
+#include <iostream>
 
 #include <SDL2/SDL.h>
 #include <SDL2/SDL2_gfxPrimitives.h>
 
 #ifdef NV_DEBUG
     #define LOG(x) std::cout << x << std::endl
+    #define ERR(x) std::cerr << x << std::endl
 #elif defined(NV_RELEASE)
     #define LOG(x)
+    #define ERR(x)
 #endif
 
-class Engine
+namespace Nevergine
 {
-    private:
-        
-};
+    class Engine
+    {
+        private:
+            static const int WINDOW_WIDTH = 1280;
+            static const int WINDOW_HEIGHT = 720;
 
-#endif
+            SDL_Window *window;
+            SDL_Renderer *renderer;
+
+            bool running = true;
+            SDL_Event e;
+        
+        public:
+            Engine();
+
+            virtual void init();
+            virtual void processEvents();
+            virtual void update();
+            virtual void render();
+            virtual void execute();
+
+            ~Engine();
+    };
+};

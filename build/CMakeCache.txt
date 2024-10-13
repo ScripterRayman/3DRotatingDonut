@@ -234,6 +234,12 @@ Project_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/hamdan/Documents/3DRotatingDonut
 
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL2
+
+//The directory containing a CMake configuration file for SDL2_gfx.
+SDL2_gfx_DIR:PATH=SDL2_gfx_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries

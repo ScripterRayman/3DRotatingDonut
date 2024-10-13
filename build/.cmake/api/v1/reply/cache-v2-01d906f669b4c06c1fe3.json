@@ -1250,6 +1250,30 @@
 			"value" : "/home/hamdan/Documents/3DRotatingDonut"
 		},
 		{
+			"name" : "SDL2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2"
+		},
+		{
+			"name" : "SDL2_gfx_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2_gfx."
+				}
+			],
+			"type" : "PATH",
+			"value" : "SDL2_gfx_DIR-NOTFOUND"
+		},
+		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
 			"properties" : 
 			[

@@ -1,5 +1,6 @@
-CMakeFiles/main.dir/src/engine.cpp.o: \
-  /home/hamdan/Documents/3DRotatingDonut/src/engine.cpp \
+CMakeFiles/main.dir/src/game.cpp.o: \
+  /home/hamdan/Documents/3DRotatingDonut/src/game.cpp \
+  /home/hamdan/Documents/3DRotatingDonut/src/game.h \
   /home/hamdan/Documents/3DRotatingDonut/src/engine.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \

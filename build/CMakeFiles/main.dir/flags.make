@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = -DNV_DEBUG
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /usr/include/SDL2
 
 CXX_FLAGS = -g -std=gnu++20
 
