@@ -11,14 +11,8 @@ Nevergine::Engine::Engine()
         SDL_Quit();
     }
 
-    window = SDL_CreateWindow(
-        "Game",
-        SDL_WINDOWPOS_UNDEFINED,
-        SDL_WINDOWPOS_UNDEFINED,
-        WINDOW_WIDTH,
-        WINDOW_HEIGHT,
-        SDL_WINDOW_SHOWN
-    );
+    window = SDL_CreateWindow("Title", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 
+                 WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL);
 
     if (!window)
     {
@@ -27,11 +21,7 @@ Nevergine::Engine::Engine()
         SDL_Quit();
     }
 
-    renderer = SDL_CreateRenderer(
-        this->window,
-        0,
-        SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC
-    );
+    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
     if (!renderer)
     {
@@ -72,7 +62,11 @@ void Nevergine::Engine::update()
 
 void Nevergine::Engine::render()
 {
-
+    // Clear and render as before
+    SDL_SetRenderDrawColor(Nevergine::Engine::renderer, 0, 0, 0, 255);
+    SDL_RenderClear(Nevergine::Engine::renderer);
+    
+    SDL_SetRenderDrawColor(Nevergine::Engine::renderer, 255, 255, 255, 255);
 }
 
 void Nevergine::Engine::execute()

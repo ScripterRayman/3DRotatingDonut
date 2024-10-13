@@ -1,6 +1,8 @@
 CMakeFiles/main.dir/main/main.cpp.o: \
   /home/hamdan/Documents/3DRotatingDonut/main/main.cpp \
   /home/hamdan/Documents/3DRotatingDonut/main/main.h \
+  /home/hamdan/Documents/3DRotatingDonut/main/../src/game.h \
+  /home/hamdan/Documents/3DRotatingDonut/main/../src/engine.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -191,8 +193,6 @@ CMakeFiles/main.dir/main/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
-  /home/hamdan/Documents/3DRotatingDonut/main/../src/game.h \
-  /home/hamdan/Documents/3DRotatingDonut/main/../src/engine.h \
   /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
   /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
   /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \
@@ -355,4 +355,5 @@ CMakeFiles/main.dir/main/main.cpp.o: \
   /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h \
   /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
   /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
-  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL2_gfxPrimitives.h
+  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL2_gfxPrimitives.h \
+  /home/hamdan/Documents/3DRotatingDonut/main/../src/utils.h

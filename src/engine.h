@@ -19,15 +19,15 @@ namespace Nevergine
     {
         private:
             static const int WINDOW_WIDTH = 1280;
-            static const int WINDOW_HEIGHT = 720;
-
-            SDL_Window *window;
-            SDL_Renderer *renderer;
+            static const int WINDOW_HEIGHT = 700;
 
             bool running = true;
             SDL_Event e;
         
         public:
+            SDL_Window *window;
+            SDL_Renderer *renderer;
+
             Engine();
 
             virtual void init();

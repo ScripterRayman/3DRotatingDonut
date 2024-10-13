@@ -1,6 +1,7 @@
 #pragma once
 
 #include "engine.h"
+#include "utils.h"
 
 class Game : public Nevergine::Engine
 {

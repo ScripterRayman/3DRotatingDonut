@@ -354,4 +354,5 @@ CMakeFiles/main.dir/src/game.cpp.o: \
   /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h \
   /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
   /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
-  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL2_gfxPrimitives.h
+  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL2_gfxPrimitives.h \
+  /home/hamdan/Documents/3DRotatingDonut/src/utils.h
