@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/hamdan/Documents/3DRotatingDonut/build",
+  "command": "/usr/bin/clang++ -DNV_DEBUG  -g -std=gnu++20 -o CMakeFiles/main.dir/src/engine.cpp.o -c /home/hamdan/Documents/3DRotatingDonut/src/engine.cpp",
+  "file": "/home/hamdan/Documents/3DRotatingDonut/src/engine.cpp",
+  "output": "CMakeFiles/main.dir/src/engine.cpp.o"
+},
+{
+  "directory": "/home/hamdan/Documents/3DRotatingDonut/build",
+  "command": "/usr/bin/clang++ -DNV_DEBUG  -g -std=gnu++20 -o CMakeFiles/main.dir/main/main.cpp.o -c /home/hamdan/Documents/3DRotatingDonut/main/main.cpp",
+  "file": "/home/hamdan/Documents/3DRotatingDonut/main/main.cpp",
+  "output": "CMakeFiles/main.dir/main/main.cpp.o"
+}
+]

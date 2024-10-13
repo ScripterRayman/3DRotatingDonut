@@ -1,0 +1,3 @@
+/home/hamdan/Documents/3DRotatingDonut/build/CMakeFiles/main.dir
+/home/hamdan/Documents/3DRotatingDonut/build/CMakeFiles/edit_cache.dir
+/home/hamdan/Documents/3DRotatingDonut/build/CMakeFiles/rebuild_cache.dir
